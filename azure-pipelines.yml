@@ -14,10 +14,7 @@ pr:
     - '*' 
 
 pool:
-  name: Default
-  demands:
-  - msbuild
-  - visualstudio
+  vmImage: 'windows-latest'
   
 variables:
   BuildConfiguration: 'Release'
